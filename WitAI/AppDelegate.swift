@@ -15,7 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //You can grab your access-token from your Wit console, under Settings\Access Token.
+        Wit.sharedInstance().accessToken = "xxx"
+        Wit.sharedInstance().detectSpeechStop = WITVadConfig.DetectSpeechStop
+        
         return true
     }
 
