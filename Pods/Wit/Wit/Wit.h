@@ -9,10 +9,13 @@
 #import "WITMicButton.h"
 
 
+
+
 @class WITRecordingSession;
 @class WITContextSetter;
 @protocol WitDelegate;
 @protocol WITRecordingSessionDelegate;
+
 
 @interface Wit : NSObject  <WITRecordingSessionDelegate>
 
@@ -37,19 +40,13 @@
 @property WITVadConfig detectSpeechStop;
 
 /**
- * Set the maximum length of time recorded by the VAD in ms
- * Set to -1 for no timeout
- * Defaults to 7000
+ * Allow you to configure the options to pass to the AVAudioSession.
+ * This will be passed to the function [AVAudioSession setCategory:category withOptions:options error:outError]
+ *
+ * See https://developer.apple.com/library/IOs/documentation/AVFoundation/Reference/AVAudioSession_ClassReference/index.html#//apple_ref/c/econst/AVAudioSessionCategoryOptionMixWithOthers
+ *
  */
-@property int vadTimeout;
-
-/**
- * Set VAD sensitivity (0-100):
- * - Lower values are for strong voice signals like for a cellphone or personal mic.
- * - Higher values are for use with a fixed-position mic or any application with voice buried in ambient noise.
- * - Defaults to 0
- */
-@property int vadSensitivity;
+@property AVAudioSessionCategoryOptions avAudioSessionCategoryOption;
 
 /**
  Singleton instance accessor.
@@ -143,18 +140,8 @@
 - (void)witDidStartRecording;
 
 /**
- Called when Wit stops recording the audio input.
+ Called when Wit stop recording the audio input.
  */
 - (void)witDidStopRecording;
 
-/**
- Called whenever Wit reveices an audio chunk. The format of the returned audio is 16-bit PCM, 16 kHz mono.
- */
-- (void)witDidGetAudio:(NSData *)chunk;
-
 @end
-
-/***** Constants *****************/
-static __unused NSString* const kWitNotificationAudioPowerChanged = @"WITAudioPowerChanged";
-static int const kWitAudioSampleRate = 16000;
-static int const kWitAudioBitDepth = 16;

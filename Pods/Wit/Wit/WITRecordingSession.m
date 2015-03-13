@@ -35,7 +35,7 @@ WITContextSetter *wcs;
         self.recorder.delegate = self;
         [self.recorder start];
         self.witToken = witToken;
-        self.buffersToSave = 25; //hardcode for now
+        self.buffersToSave = 1; //hardcode for now
         if (vadEnabled == WITVadConfigDisabled) {
             [self startUploader];
         } else  {
@@ -89,8 +89,7 @@ WITContextSetter *wcs;
 -(void)trackVad:(NSString *)messageId {
     if (self.vadEnabled && ![self.recorder stoppedUsingVad]) {
         NSLog(@"Tracking vad failure");
-        int vadSensitivity = [Wit sharedInstance].vadSensitivity;
-        [[[WITVadTracker alloc] init] track:@"vadFailed" withMessageId:messageId withVadSensitivity:vadSensitivity withToken:self.witToken];
+        [[[WITVadTracker alloc] init] track:@"vadFailed" withMessageId:messageId withToken:self.witToken];
     }
 }
 
@@ -121,6 +120,7 @@ WITContextSetter *wcs;
             [self startUploader];
     
             //then prepend buffered data
+    
             for(NSData* bufferedData in self.dataBuffer){
                 [self.uploader sendChunk:bufferedData];
             }

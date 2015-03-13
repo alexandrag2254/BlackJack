@@ -52,8 +52,7 @@
         || currentStatus == kCLAuthorizationStatusRestricted) {
         return NO;
     }
-    if (currentStatus == kCLAuthorizationStatusNotDetermined
-        && [locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
+    if (currentStatus == kCLAuthorizationStatusNotDetermined) {
         [locationManager requestWhenInUseAuthorization];
         currentStatus = [CLLocationManager authorizationStatus];
     }

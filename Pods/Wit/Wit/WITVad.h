@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Accelerate/Accelerate.h>
-#import "WITCvad.h"
+#import "WITVadSimple.h"
 
 @protocol WITVadDelegate;
 
