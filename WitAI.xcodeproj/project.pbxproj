@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3A470F9762E50FA9A6664531 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E06C5C50D2C6959A8F9C92 /* libPods.a */; };
+		800061B11AB2E3200059EBD4 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800061B01AB2E3200059EBD4 /* images.xcassets */; };
 		801261DA1A615373001E8618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801261D91A615373001E8618 /* AppDelegate.swift */; };
 		801261DC1A615373001E8618 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801261DB1A615373001E8618 /* ViewController.swift */; };
 		801261DF1A615373001E8618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801261DD1A615373001E8618 /* Main.storyboard */; };
 		801261E41A615373001E8618 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 801261E21A615373001E8618 /* LaunchScreen.xib */; };
 		801261F01A615373001E8618 /* WitAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801261EF1A615373001E8618 /* WitAITests.swift */; };
-		80A1E2211A6160ED009E506C /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80A1E2201A6160ED009E506C /* images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		3007767BEA05744256264756 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		800061B01AB2E3200059EBD4 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		801261D41A615373001E8618 /* WitAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WitAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		801261D81A615373001E8618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		801261D91A615373001E8618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		801261E91A615373001E8618 /* WitAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WitAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		801261EE1A615373001E8618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		801261EF1A615373001E8618 /* WitAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WitAITests.swift; sourceTree = "<group>"; };
-		80A1E2201A6160ED009E506C /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		83001C38700DF746E649C5BE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A4E06C5C50D2C6959A8F9C92 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -105,7 +105,7 @@
 				801261DB1A615373001E8618 /* ViewController.swift */,
 				801261DD1A615373001E8618 /* Main.storyboard */,
 				801261E21A615373001E8618 /* LaunchScreen.xib */,
-				80A1E2201A6160ED009E506C /* images.xcassets */,
+				800061B01AB2E3200059EBD4 /* images.xcassets */,
 				801261D71A615373001E8618 /* Supporting Files */,
 			);
 			path = WitAI;
@@ -218,7 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A1E2211A6160ED009E506C /* images.xcassets in Resources */,
+				800061B11AB2E3200059EBD4 /* images.xcassets in Resources */,
 				801261DF1A615373001E8618 /* Main.storyboard in Resources */,
 				801261E41A615373001E8618 /* LaunchScreen.xib in Resources */,
 			);

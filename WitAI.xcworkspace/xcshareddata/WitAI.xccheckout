@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B8AE7DB0-ABCA-4324-8725-12C616120259</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WitAI</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FE0127CAA9B23B079F23CB38C9D97014D7C7E571</key>
+		<string>https://github.com/aaronabentheuer/wit.ai-Demo-Swift-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WitAI.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FE0127CAA9B23B079F23CB38C9D97014D7C7E571</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/aaronabentheuer/wit.ai-Demo-Swift-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FE0127CAA9B23B079F23CB38C9D97014D7C7E571</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FE0127CAA9B23B079F23CB38C9D97014D7C7E571</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WitAI</string>
+		</dict>
+	</array>
+</dict>
+</plist>

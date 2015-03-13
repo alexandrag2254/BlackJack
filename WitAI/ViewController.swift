@@ -44,8 +44,8 @@ class ViewController: UIViewController, WitDelegate {
         }
         
         var outcomes : NSArray = outcomes!
-        var firstOutcome : NSDictionary = outcomes.objectAtIndex(0) as NSDictionary
-        var intent : String = firstOutcome.objectForKey("intent") as String
+        var firstOutcome : NSDictionary = outcomes.objectAtIndex(0) as! NSDictionary
+        var intent : String = firstOutcome.objectForKey("intent")as! String
         labelView!.text = intent
         labelView!.sizeToFit()
     }
