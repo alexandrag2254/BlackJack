@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  WitAI
 //
-//  Created by Julian Abentheuer on 10.01.15.
-//  Copyright (c) 2015 Aaron Abentheuer. All rights reserved.
+//  Created by on 10.01.15.
+//  Copyright (c) 2015. All rights reserved.
 //
 
 import UIKit
@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         //You can grab your access-token from your Wit console, under Settings\Access Token.
-        Wit.sharedInstance().accessToken = "xxx"
+        Wit.sharedInstance().accessToken = "M7D2TPTG3ONG3RUW7R7KTTU3DITN27XD"
         Wit.sharedInstance().detectSpeechStop = WITVadConfig.DetectSpeechStop
         
         return true

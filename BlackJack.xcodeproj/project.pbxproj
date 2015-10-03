@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A470F9762E50FA9A6664531 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E06C5C50D2C6959A8F9C92 /* libPods.a */; };
+		800061B11AB2E3200059EBD4 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800061B01AB2E3200059EBD4 /* images.xcassets */; };
+		801261DA1A615373001E8618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801261D91A615373001E8618 /* AppDelegate.swift */; };
+		801261DC1A615373001E8618 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801261DB1A615373001E8618 /* ViewController.swift */; };
+		801261DF1A615373001E8618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801261DD1A615373001E8618 /* Main.storyboard */; };
+		801261E41A615373001E8618 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 801261E21A615373001E8618 /* LaunchScreen.xib */; };
+		801261F01A615373001E8618 /* WitAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801261EF1A615373001E8618 /* WitAITests.swift */; };
+		83DB35341BBC8FFC007F042D /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35331BBC8FFC007F042D /* background.jpg */; };
+		83DB35681BBCAFC6007F042D /* ace clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35351BBCAFC6007F042D /* ace clubs.png */; };
+		83DB35691BBCAFC6007F042D /* ace diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35361BBCAFC6007F042D /* ace diamonds.png */; };
+		83DB356A1BBCAFC6007F042D /* ace hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35371BBCAFC6007F042D /* ace hearts.png */; };
+		83DB356B1BBCAFC6007F042D /* ace spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35381BBCAFC6007F042D /* ace spades.png */; };
+		83DB356C1BBCAFC6007F042D /* eight clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35391BBCAFC6007F042D /* eight clubs.png */; };
+		83DB356D1BBCAFC6007F042D /* eight diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB353A1BBCAFC6007F042D /* eight diamonds.png */; };
+		83DB356E1BBCAFC6007F042D /* eight hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB353B1BBCAFC6007F042D /* eight hearts.png */; };
+		83DB356F1BBCAFC6007F042D /* eight spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB353C1BBCAFC6007F042D /* eight spades.png */; };
+		83DB35701BBCAFC6007F042D /* five clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB353D1BBCAFC6007F042D /* five clubs.png */; };
+		83DB35711BBCAFC6007F042D /* five diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB353E1BBCAFC6007F042D /* five diamonds.png */; };
+		83DB35721BBCAFC6007F042D /* five hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB353F1BBCAFC6007F042D /* five hearts.png */; };
+		83DB35731BBCAFC6007F042D /* five spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35401BBCAFC6007F042D /* five spades.png */; };
+		83DB35741BBCAFC6007F042D /* four diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35411BBCAFC6007F042D /* four diamonds.png */; };
+		83DB35751BBCAFC6007F042D /* four hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35421BBCAFC6007F042D /* four hearts.png */; };
+		83DB35761BBCAFC6007F042D /* four spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35431BBCAFC6007F042D /* four spades.png */; };
+		83DB35771BBCAFC6007F042D /* jack clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35441BBCAFC6007F042D /* jack clubs.png */; };
+		83DB35781BBCAFC6007F042D /* jack diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35451BBCAFC6007F042D /* jack diamonds.png */; };
+		83DB35791BBCAFC6007F042D /* jack hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35461BBCAFC6007F042D /* jack hearts.png */; };
+		83DB357A1BBCAFC6007F042D /* jack spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35471BBCAFC6007F042D /* jack spades.png */; };
+		83DB357B1BBCAFC6007F042D /* king clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35481BBCAFC6007F042D /* king clubs.png */; };
+		83DB357C1BBCAFC6007F042D /* king diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35491BBCAFC6007F042D /* king diamonds.png */; };
+		83DB357D1BBCAFC6007F042D /* king hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB354A1BBCAFC6007F042D /* king hearts.png */; };
+		83DB357E1BBCAFC6007F042D /* king spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB354B1BBCAFC6007F042D /* king spades.png */; };
+		83DB357F1BBCAFC6007F042D /* nine clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB354C1BBCAFC6007F042D /* nine clubs.png */; };
+		83DB35801BBCAFC6007F042D /* nine diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB354D1BBCAFC6007F042D /* nine diamonds.png */; };
+		83DB35811BBCAFC6007F042D /* nine hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB354E1BBCAFC6007F042D /* nine hearts.png */; };
+		83DB35821BBCAFC6007F042D /* nine spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB354F1BBCAFC6007F042D /* nine spades.png */; };
+		83DB35831BBCAFC6007F042D /* queen clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35501BBCAFC6007F042D /* queen clubs.png */; };
+		83DB35841BBCAFC6007F042D /* queen diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35511BBCAFC6007F042D /* queen diamonds.png */; };
+		83DB35851BBCAFC6007F042D /* queen hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35521BBCAFC6007F042D /* queen hearts.png */; };
+		83DB35861BBCAFC6007F042D /* queen spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35531BBCAFC6007F042D /* queen spades.png */; };
+		83DB35871BBCAFC6007F042D /* seven clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35541BBCAFC6007F042D /* seven clubs.png */; };
+		83DB35881BBCAFC6007F042D /* seven diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35551BBCAFC6007F042D /* seven diamonds.png */; };
+		83DB35891BBCAFC6007F042D /* seven hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35561BBCAFC6007F042D /* seven hearts.png */; };
+		83DB358A1BBCAFC6007F042D /* seven spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35571BBCAFC6007F042D /* seven spades.png */; };
+		83DB358B1BBCAFC6007F042D /* six clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35581BBCAFC6007F042D /* six clubs.png */; };
+		83DB358C1BBCAFC6007F042D /* six diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35591BBCAFC6007F042D /* six diamonds.png */; };
+		83DB358D1BBCAFC6007F042D /* six hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB355A1BBCAFC6007F042D /* six hearts.png */; };
+		83DB358E1BBCAFC6007F042D /* six spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB355B1BBCAFC6007F042D /* six spades.png */; };
+		83DB358F1BBCAFC6007F042D /* ten clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB355C1BBCAFC6007F042D /* ten clubs.png */; };
+		83DB35901BBCAFC6007F042D /* ten diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB355D1BBCAFC6007F042D /* ten diamonds.png */; };
+		83DB35911BBCAFC6007F042D /* ten hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB355E1BBCAFC6007F042D /* ten hearts.png */; };
+		83DB35921BBCAFC6007F042D /* ten spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB355F1BBCAFC6007F042D /* ten spades.png */; };
+		83DB35931BBCAFC6007F042D /* thre clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35601BBCAFC6007F042D /* thre clubs.png */; };
+		83DB35941BBCAFC6007F042D /* three diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35611BBCAFC6007F042D /* three diamonds.png */; };
+		83DB35951BBCAFC6007F042D /* three hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35621BBCAFC6007F042D /* three hearts.png */; };
+		83DB35961BBCAFC6007F042D /* three spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35631BBCAFC6007F042D /* three spades.png */; };
+		83DB35971BBCAFC6007F042D /* two clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35641BBCAFC6007F042D /* two clubs.png */; };
+		83DB35981BBCAFC6007F042D /* two diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35651BBCAFC6007F042D /* two diamonds.png */; };
+		83DB35991BBCAFC6007F042D /* two hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35661BBCAFC6007F042D /* two hearts.png */; };
+		83DB359A1BBCAFC6007F042D /* two spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DB35671BBCAFC6007F042D /* two spades.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		801261EA1A615373001E8618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 801261CC1A615373001E8618 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 801261D31A615373001E8618;
+			remoteInfo = WitAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3007767BEA05744256264756 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		800061B01AB2E3200059EBD4 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		801261D41A615373001E8618 /* BlackJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		801261D81A615373001E8618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801261D91A615373001E8618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		801261DB1A615373001E8618 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		801261DE1A615373001E8618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		801261E31A615373001E8618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		801261E91A615373001E8618 /* BlackJack.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackJack.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		801261EE1A615373001E8618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801261EF1A615373001E8618 /* WitAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WitAITests.swift; sourceTree = "<group>"; };
+		83001C38700DF746E649C5BE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		83DB35331BBC8FFC007F042D /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		83DB35351BBCAFC6007F042D /* ace clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ace clubs.png"; sourceTree = "<group>"; };
+		83DB35361BBCAFC6007F042D /* ace diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ace diamonds.png"; sourceTree = "<group>"; };
+		83DB35371BBCAFC6007F042D /* ace hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ace hearts.png"; sourceTree = "<group>"; };
+		83DB35381BBCAFC6007F042D /* ace spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ace spades.png"; sourceTree = "<group>"; };
+		83DB35391BBCAFC6007F042D /* eight clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eight clubs.png"; sourceTree = "<group>"; };
+		83DB353A1BBCAFC6007F042D /* eight diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eight diamonds.png"; sourceTree = "<group>"; };
+		83DB353B1BBCAFC6007F042D /* eight hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eight hearts.png"; sourceTree = "<group>"; };
+		83DB353C1BBCAFC6007F042D /* eight spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eight spades.png"; sourceTree = "<group>"; };
+		83DB353D1BBCAFC6007F042D /* five clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "five clubs.png"; sourceTree = "<group>"; };
+		83DB353E1BBCAFC6007F042D /* five diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "five diamonds.png"; sourceTree = "<group>"; };
+		83DB353F1BBCAFC6007F042D /* five hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "five hearts.png"; sourceTree = "<group>"; };
+		83DB35401BBCAFC6007F042D /* five spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "five spades.png"; sourceTree = "<group>"; };
+		83DB35411BBCAFC6007F042D /* four diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "four diamonds.png"; sourceTree = "<group>"; };
+		83DB35421BBCAFC6007F042D /* four hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "four hearts.png"; sourceTree = "<group>"; };
+		83DB35431BBCAFC6007F042D /* four spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "four spades.png"; sourceTree = "<group>"; };
+		83DB35441BBCAFC6007F042D /* jack clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jack clubs.png"; sourceTree = "<group>"; };
+		83DB35451BBCAFC6007F042D /* jack diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jack diamonds.png"; sourceTree = "<group>"; };
+		83DB35461BBCAFC6007F042D /* jack hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jack hearts.png"; sourceTree = "<group>"; };
+		83DB35471BBCAFC6007F042D /* jack spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jack spades.png"; sourceTree = "<group>"; };
+		83DB35481BBCAFC6007F042D /* king clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "king clubs.png"; sourceTree = "<group>"; };
+		83DB35491BBCAFC6007F042D /* king diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "king diamonds.png"; sourceTree = "<group>"; };
+		83DB354A1BBCAFC6007F042D /* king hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "king hearts.png"; sourceTree = "<group>"; };
+		83DB354B1BBCAFC6007F042D /* king spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "king spades.png"; sourceTree = "<group>"; };
+		83DB354C1BBCAFC6007F042D /* nine clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nine clubs.png"; sourceTree = "<group>"; };
+		83DB354D1BBCAFC6007F042D /* nine diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nine diamonds.png"; sourceTree = "<group>"; };
+		83DB354E1BBCAFC6007F042D /* nine hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nine hearts.png"; sourceTree = "<group>"; };
+		83DB354F1BBCAFC6007F042D /* nine spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nine spades.png"; sourceTree = "<group>"; };
+		83DB35501BBCAFC6007F042D /* queen clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "queen clubs.png"; sourceTree = "<group>"; };
+		83DB35511BBCAFC6007F042D /* queen diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "queen diamonds.png"; sourceTree = "<group>"; };
+		83DB35521BBCAFC6007F042D /* queen hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "queen hearts.png"; sourceTree = "<group>"; };
+		83DB35531BBCAFC6007F042D /* queen spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "queen spades.png"; sourceTree = "<group>"; };
+		83DB35541BBCAFC6007F042D /* seven clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seven clubs.png"; sourceTree = "<group>"; };
+		83DB35551BBCAFC6007F042D /* seven diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seven diamonds.png"; sourceTree = "<group>"; };
+		83DB35561BBCAFC6007F042D /* seven hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seven hearts.png"; sourceTree = "<group>"; };
+		83DB35571BBCAFC6007F042D /* seven spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seven spades.png"; sourceTree = "<group>"; };
+		83DB35581BBCAFC6007F042D /* six clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "six clubs.png"; sourceTree = "<group>"; };
+		83DB35591BBCAFC6007F042D /* six diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "six diamonds.png"; sourceTree = "<group>"; };
+		83DB355A1BBCAFC6007F042D /* six hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "six hearts.png"; sourceTree = "<group>"; };
+		83DB355B1BBCAFC6007F042D /* six spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "six spades.png"; sourceTree = "<group>"; };
+		83DB355C1BBCAFC6007F042D /* ten clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ten clubs.png"; sourceTree = "<group>"; };
+		83DB355D1BBCAFC6007F042D /* ten diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ten diamonds.png"; sourceTree = "<group>"; };
+		83DB355E1BBCAFC6007F042D /* ten hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ten hearts.png"; sourceTree = "<group>"; };
+		83DB355F1BBCAFC6007F042D /* ten spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ten spades.png"; sourceTree = "<group>"; };
+		83DB35601BBCAFC6007F042D /* thre clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thre clubs.png"; sourceTree = "<group>"; };
+		83DB35611BBCAFC6007F042D /* three diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "three diamonds.png"; sourceTree = "<group>"; };
+		83DB35621BBCAFC6007F042D /* three hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "three hearts.png"; sourceTree = "<group>"; };
+		83DB35631BBCAFC6007F042D /* three spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "three spades.png"; sourceTree = "<group>"; };
+		83DB35641BBCAFC6007F042D /* two clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "two clubs.png"; sourceTree = "<group>"; };
+		83DB35651BBCAFC6007F042D /* two diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "two diamonds.png"; sourceTree = "<group>"; };
+		83DB35661BBCAFC6007F042D /* two hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "two hearts.png"; sourceTree = "<group>"; };
+		83DB35671BBCAFC6007F042D /* two spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "two spades.png"; sourceTree = "<group>"; };
+		A4E06C5C50D2C6959A8F9C92 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		801261D11A615373001E8618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A470F9762E50FA9A6664531 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801261E61A615373001E8618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20A9AA2FD66A65F067BEB4FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3007767BEA05744256264756 /* Pods.debug.xcconfig */,
+				83001C38700DF746E649C5BE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65167B45545EE27FCF63FB07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4E06C5C50D2C6959A8F9C92 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		801261CB1A615373001E8618 = {
+			isa = PBXGroup;
+			children = (
+				801261D61A615373001E8618 /* WitAI */,
+				801261EC1A615373001E8618 /* WitAITests */,
+				801261D51A615373001E8618 /* Products */,
+				20A9AA2FD66A65F067BEB4FB /* Pods */,
+				65167B45545EE27FCF63FB07 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		801261D51A615373001E8618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				801261D41A615373001E8618 /* BlackJack.app */,
+				801261E91A615373001E8618 /* BlackJack.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		801261D61A615373001E8618 /* WitAI */ = {
+			isa = PBXGroup;
+			children = (
+				801261D91A615373001E8618 /* AppDelegate.swift */,
+				801261DB1A615373001E8618 /* ViewController.swift */,
+				801261DD1A615373001E8618 /* Main.storyboard */,
+				83DB35331BBC8FFC007F042D /* background.jpg */,
+				83DB35351BBCAFC6007F042D /* ace clubs.png */,
+				83DB35361BBCAFC6007F042D /* ace diamonds.png */,
+				83DB35371BBCAFC6007F042D /* ace hearts.png */,
+				83DB35381BBCAFC6007F042D /* ace spades.png */,
+				83DB35391BBCAFC6007F042D /* eight clubs.png */,
+				83DB353A1BBCAFC6007F042D /* eight diamonds.png */,
+				83DB353B1BBCAFC6007F042D /* eight hearts.png */,
+				83DB353C1BBCAFC6007F042D /* eight spades.png */,
+				83DB353D1BBCAFC6007F042D /* five clubs.png */,
+				83DB353E1BBCAFC6007F042D /* five diamonds.png */,
+				83DB353F1BBCAFC6007F042D /* five hearts.png */,
+				83DB35401BBCAFC6007F042D /* five spades.png */,
+				83DB35411BBCAFC6007F042D /* four diamonds.png */,
+				83DB35421BBCAFC6007F042D /* four hearts.png */,
+				83DB35431BBCAFC6007F042D /* four spades.png */,
+				83DB35441BBCAFC6007F042D /* jack clubs.png */,
+				83DB35451BBCAFC6007F042D /* jack diamonds.png */,
+				83DB35461BBCAFC6007F042D /* jack hearts.png */,
+				83DB35471BBCAFC6007F042D /* jack spades.png */,
+				83DB35481BBCAFC6007F042D /* king clubs.png */,
+				83DB35491BBCAFC6007F042D /* king diamonds.png */,
+				83DB354A1BBCAFC6007F042D /* king hearts.png */,
+				83DB354B1BBCAFC6007F042D /* king spades.png */,
+				83DB354C1BBCAFC6007F042D /* nine clubs.png */,
+				83DB354D1BBCAFC6007F042D /* nine diamonds.png */,
+				83DB354E1BBCAFC6007F042D /* nine hearts.png */,
+				83DB354F1BBCAFC6007F042D /* nine spades.png */,
+				83DB35501BBCAFC6007F042D /* queen clubs.png */,
+				83DB35511BBCAFC6007F042D /* queen diamonds.png */,
+				83DB35521BBCAFC6007F042D /* queen hearts.png */,
+				83DB35531BBCAFC6007F042D /* queen spades.png */,
+				83DB35541BBCAFC6007F042D /* seven clubs.png */,
+				83DB35551BBCAFC6007F042D /* seven diamonds.png */,
+				83DB35561BBCAFC6007F042D /* seven hearts.png */,
+				83DB35571BBCAFC6007F042D /* seven spades.png */,
+				83DB35581BBCAFC6007F042D /* six clubs.png */,
+				83DB35591BBCAFC6007F042D /* six diamonds.png */,
+				83DB355A1BBCAFC6007F042D /* six hearts.png */,
+				83DB355B1BBCAFC6007F042D /* six spades.png */,
+				83DB355C1BBCAFC6007F042D /* ten clubs.png */,
+				83DB355D1BBCAFC6007F042D /* ten diamonds.png */,
+				83DB355E1BBCAFC6007F042D /* ten hearts.png */,
+				83DB355F1BBCAFC6007F042D /* ten spades.png */,
+				83DB35601BBCAFC6007F042D /* thre clubs.png */,
+				83DB35611BBCAFC6007F042D /* three diamonds.png */,
+				83DB35621BBCAFC6007F042D /* three hearts.png */,
+				83DB35631BBCAFC6007F042D /* three spades.png */,
+				83DB35641BBCAFC6007F042D /* two clubs.png */,
+				83DB35651BBCAFC6007F042D /* two diamonds.png */,
+				83DB35661BBCAFC6007F042D /* two hearts.png */,
+				83DB35671BBCAFC6007F042D /* two spades.png */,
+				801261E21A615373001E8618 /* LaunchScreen.xib */,
+				800061B01AB2E3200059EBD4 /* images.xcassets */,
+				801261D71A615373001E8618 /* Supporting Files */,
+			);
+			path = WitAI;
+			sourceTree = "<group>";
+		};
+		801261D71A615373001E8618 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				801261D81A615373001E8618 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		801261EC1A615373001E8618 /* WitAITests */ = {
+			isa = PBXGroup;
+			children = (
+				801261EF1A615373001E8618 /* WitAITests.swift */,
+				801261ED1A615373001E8618 /* Supporting Files */,
+			);
+			path = WitAITests;
+			sourceTree = "<group>";
+		};
+		801261ED1A615373001E8618 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				801261EE1A615373001E8618 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		801261D31A615373001E8618 /* BlackJack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801261F31A615373001E8618 /* Build configuration list for PBXNativeTarget "BlackJack" */;
+			buildPhases = (
+				5525FEDAD93161933AF5436F /* Check Pods Manifest.lock */,
+				801261D01A615373001E8618 /* Sources */,
+				801261D11A615373001E8618 /* Frameworks */,
+				801261D21A615373001E8618 /* Resources */,
+				097D7640EA3E378F0DC28B40 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackJack;
+			productName = WitAI;
+			productReference = 801261D41A615373001E8618 /* BlackJack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		801261E81A615373001E8618 /* BlackJackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801261F61A615373001E8618 /* Build configuration list for PBXNativeTarget "BlackJackTests" */;
+			buildPhases = (
+				801261E51A615373001E8618 /* Sources */,
+				801261E61A615373001E8618 /* Frameworks */,
+				801261E71A615373001E8618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				801261EB1A615373001E8618 /* PBXTargetDependency */,
+			);
+			name = BlackJackTests;
+			productName = WitAITests;
+			productReference = 801261E91A615373001E8618 /* BlackJack.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		801261CC1A615373001E8618 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Aaron Abentheuer";
+				TargetAttributes = {
+					801261D31A615373001E8618 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = QE68H226Q3;
+					};
+					801261E81A615373001E8618 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 801261D31A615373001E8618;
+					};
+				};
+			};
+			buildConfigurationList = 801261CF1A615373001E8618 /* Build configuration list for PBXProject "BlackJack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 801261CB1A615373001E8618;
+			productRefGroup = 801261D51A615373001E8618 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				801261D31A615373001E8618 /* BlackJack */,
+				801261E81A615373001E8618 /* BlackJackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		801261D21A615373001E8618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DB35791BBCAFC6007F042D /* jack hearts.png in Resources */,
+				800061B11AB2E3200059EBD4 /* images.xcassets in Resources */,
+				83DB35921BBCAFC6007F042D /* ten spades.png in Resources */,
+				83DB35751BBCAFC6007F042D /* four hearts.png in Resources */,
+				83DB35991BBCAFC6007F042D /* two hearts.png in Resources */,
+				83DB35681BBCAFC6007F042D /* ace clubs.png in Resources */,
+				83DB356B1BBCAFC6007F042D /* ace spades.png in Resources */,
+				83DB358C1BBCAFC6007F042D /* six diamonds.png in Resources */,
+				83DB358B1BBCAFC6007F042D /* six clubs.png in Resources */,
+				83DB35741BBCAFC6007F042D /* four diamonds.png in Resources */,
+				83DB358F1BBCAFC6007F042D /* ten clubs.png in Resources */,
+				83DB35851BBCAFC6007F042D /* queen hearts.png in Resources */,
+				83DB357D1BBCAFC6007F042D /* king hearts.png in Resources */,
+				83DB35341BBC8FFC007F042D /* background.jpg in Resources */,
+				83DB35931BBCAFC6007F042D /* thre clubs.png in Resources */,
+				83DB35781BBCAFC6007F042D /* jack diamonds.png in Resources */,
+				83DB35961BBCAFC6007F042D /* three spades.png in Resources */,
+				83DB356A1BBCAFC6007F042D /* ace hearts.png in Resources */,
+				83DB35721BBCAFC6007F042D /* five hearts.png in Resources */,
+				83DB357C1BBCAFC6007F042D /* king diamonds.png in Resources */,
+				83DB359A1BBCAFC6007F042D /* two spades.png in Resources */,
+				83DB35711BBCAFC6007F042D /* five diamonds.png in Resources */,
+				83DB358D1BBCAFC6007F042D /* six hearts.png in Resources */,
+				83DB358E1BBCAFC6007F042D /* six spades.png in Resources */,
+				83DB357B1BBCAFC6007F042D /* king clubs.png in Resources */,
+				83DB35971BBCAFC6007F042D /* two clubs.png in Resources */,
+				83DB35901BBCAFC6007F042D /* ten diamonds.png in Resources */,
+				83DB35911BBCAFC6007F042D /* ten hearts.png in Resources */,
+				83DB35821BBCAFC6007F042D /* nine spades.png in Resources */,
+				83DB356D1BBCAFC6007F042D /* eight diamonds.png in Resources */,
+				83DB35701BBCAFC6007F042D /* five clubs.png in Resources */,
+				83DB357F1BBCAFC6007F042D /* nine clubs.png in Resources */,
+				801261DF1A615373001E8618 /* Main.storyboard in Resources */,
+				83DB356E1BBCAFC6007F042D /* eight hearts.png in Resources */,
+				83DB356F1BBCAFC6007F042D /* eight spades.png in Resources */,
+				83DB35731BBCAFC6007F042D /* five spades.png in Resources */,
+				83DB35761BBCAFC6007F042D /* four spades.png in Resources */,
+				83DB357A1BBCAFC6007F042D /* jack spades.png in Resources */,
+				83DB35941BBCAFC6007F042D /* three diamonds.png in Resources */,
+				801261E41A615373001E8618 /* LaunchScreen.xib in Resources */,
+				83DB35951BBCAFC6007F042D /* three hearts.png in Resources */,
+				83DB35831BBCAFC6007F042D /* queen clubs.png in Resources */,
+				83DB35981BBCAFC6007F042D /* two diamonds.png in Resources */,
+				83DB35891BBCAFC6007F042D /* seven hearts.png in Resources */,
+				83DB356C1BBCAFC6007F042D /* eight clubs.png in Resources */,
+				83DB35881BBCAFC6007F042D /* seven diamonds.png in Resources */,
+				83DB35811BBCAFC6007F042D /* nine hearts.png in Resources */,
+				83DB358A1BBCAFC6007F042D /* seven spades.png in Resources */,
+				83DB357E1BBCAFC6007F042D /* king spades.png in Resources */,
+				83DB35691BBCAFC6007F042D /* ace diamonds.png in Resources */,
+				83DB35801BBCAFC6007F042D /* nine diamonds.png in Resources */,
+				83DB35871BBCAFC6007F042D /* seven clubs.png in Resources */,
+				83DB35771BBCAFC6007F042D /* jack clubs.png in Resources */,
+				83DB35841BBCAFC6007F042D /* queen diamonds.png in Resources */,
+				83DB35861BBCAFC6007F042D /* queen spades.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801261E71A615373001E8618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		097D7640EA3E378F0DC28B40 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5525FEDAD93161933AF5436F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		801261D01A615373001E8618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801261DC1A615373001E8618 /* ViewController.swift in Sources */,
+				801261DA1A615373001E8618 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801261E51A615373001E8618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801261F01A615373001E8618 /* WitAITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		801261EB1A615373001E8618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 801261D31A615373001E8618 /* BlackJack */;
+			targetProxy = 801261EA1A615373001E8618 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		801261DD1A615373001E8618 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				801261DE1A615373001E8618 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		801261E21A615373001E8618 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				801261E31A615373001E8618 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		801261F11A615373001E8618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		801261F21A615373001E8618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		801261F41A615373001E8618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3007767BEA05744256264756 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WitAI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aaab.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = BlackJack;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = WitAIObjCBridgingHeader.h;
+			};
+			name = Debug;
+		};
+		801261F51A615373001E8618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83001C38700DF746E649C5BE /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WitAI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aaab.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = BlackJack;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = WitAIObjCBridgingHeader.h;
+			};
+			name = Release;
+		};
+		801261F71A615373001E8618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WitAITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aaab.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = BlackJack;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackJack.app/BlackJack";
+			};
+			name = Debug;
+		};
+		801261F81A615373001E8618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WitAITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aaab.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = BlackJack;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackJack.app/BlackJack";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		801261CF1A615373001E8618 /* Build configuration list for PBXProject "BlackJack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801261F11A615373001E8618 /* Debug */,
+				801261F21A615373001E8618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801261F31A615373001E8618 /* Build configuration list for PBXNativeTarget "BlackJack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801261F41A615373001E8618 /* Debug */,
+				801261F51A615373001E8618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801261F61A615373001E8618 /* Build configuration list for PBXNativeTarget "BlackJackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801261F71A615373001E8618 /* Debug */,
+				801261F81A615373001E8618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 801261CC1A615373001E8618 /* Project object */;
+}
